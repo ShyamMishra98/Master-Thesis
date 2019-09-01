@@ -1,7 +1,7 @@
 # Semantic Encoding for Evaluating Text Generation Models
 The main goal of the thesis is to prove that the semantic based evaluation measures are better correlated with the human evaluation than the lexical based evaluation measures.
 
-## Instructions to run the source code
+## Instructions
 
 - All the necessary codes for automatic text generation are in the folder 'Automatic text generation models'.
 - All the necessary codes for evaluation of automatically generated texts are in the folder 'Semantic encoders'.
@@ -20,18 +20,18 @@ This folder contains models which were used to generate the texts automatically 
 Each module has it's own instructions on how to run in the form of comments. It is advisable to run automatic text generation models in google colab as it was original developed using it.
 
 ### Semantic encoders
-The modules in semantic encoders are organized semantic encoders wise. Each module consists of the complete evaluation scripts of: semantic evaluation, lexical based evalaution and Pearson correlation evaluation.
+The modules in semantic encoders are organized semantic encoders wise. Each module consists of the complete evaluation scripts of: semantic evaluation, lexical based evaluation and Pearson correlation evaluation.
 
-- Each module has it's own instructions in the form of comments.
-- The pretrained embeddings like GLOVE, Infersent can be downloaded using the links in the semantic encoders and must be kept in the folder 'Pretrained_embeddings'.
+- Each module has been developed in Jupyter notebooks and contains instructions to run in the form of comments.
 - The links to download source codes from Github, which are necessary to run few semantic encoders are also in the beginning of those modules.
+- The pretrained embeddings like GLOVE, Infersent can be downloaded using the links in the semantic encoders and must be kept in the folder 'Pretrained_embeddings'.
 - The 'Testsets' folder consists of 5 different folders for the 5 different datasets used.
 - Each dataset folder in the Testsets consists of the source testset, it's machine generated translations or summaries and the reference translations or summaries dataset.
-- The machine generated texts (Candidate texts) and reference text are used to find the similarity between them using semantic based encoders and lexical based measures.
+- The similarity between the machine generated texts (Candidate texts) and reference text are computed, using semantic based encoders and lexical based measures.
 - The semantic based encoders gives semantic similarity scores.
 - Lexical based measures gives BLEU or ROUGE scores.
 - The human annotation scores from the 'Human annotations' are read and compared with both the lexical and semantic based similarity scores.
-- The Pearson correlation scores are used for comparision using the function 'pearsonr' from scipy.
+- The Pearson correlation scores using the function 'pearsonr' from scipy is computed.
 - Higher the correlation score, higher is the similarity with the human evaluation.
 
 
