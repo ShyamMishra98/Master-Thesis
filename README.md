@@ -13,11 +13,11 @@ The main goal of the thesis is to prove that the semantic based evaluation measu
 This folder contains models which were used to generate the texts automatically for machine translation and text summarization.
 
 - The module 'OpenNMT DE-EN translation' contains source code for the translation from German to English using OpenNMT framework. 
-- The module 'MarianNMT RO-EN translations' contains source code for the translation from Romanian to English using MarianNMT framework.
+- The module 'MarianNMT RO-EN translation' contains source code for the translation from Romanian to English using MarianNMT framework.
 - The module 'OpenNMT Text Summarization' contains source code for the English text summarization for the CNN-DM dataset using OpenNMT framework.
 - The module 'TensorFlow Text Summarization' contains source code for the English text summarization for the DUC2003, DUC2004 and Gigaword datasets using TensorFlow based model.
 
-Each module has it's own instructions on how to run in the form of comments. It is advisable to run automatic text generation models in google colab as it was original developed using it.
+Each module has it's own instructions on how to run in the form of comments. It is advisable to run automatic text generation models in Google colab as it was original developed using it.
 
 ### Semantic encoders
 The modules in semantic encoders are organized semantic encoders wise. Each module consists of the complete evaluation scripts of: semantic evaluation, lexical based evaluation and Pearson correlation evaluation.
