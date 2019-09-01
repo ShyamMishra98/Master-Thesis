@@ -34,5 +34,7 @@ The modules in semantic encoders are organized semantic encoders wise. Each modu
 - The Pearson correlation scores using the function 'pearsonr' from scipy is computed.
 - Higher the correlation score, higher is the similarity with the human evaluation.
 
+All the source code, testsets, human annotations can be found in the Github repository [Master-thesis](https://github.com/sanjita-suresh/Master-Thesis).
+
 
 
